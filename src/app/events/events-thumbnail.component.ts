@@ -13,11 +13,11 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
         <span class="pad-left">{{event.location.city}}, {{event.location.country}}</span>
       </div>
     </div>`
-    // ,
-    // styles: [`
-    //     .pad-left { margin-left: 10px; }
-    //     .well div { color: red; }
-    // `]
+    ,
+    styles: [`
+        .pad-left { margin-left: 10px; }
+        .well div { color: #bbb; }
+    `]
 })
 
 export class EventThumbnailComponent {
